@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+html{
+    font-family: "Tajawal", sans-serif;;
+    scroll-behavior: smooth;
+}
+ui{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* start home */
+.home{
+    background-image: url("https://cdn.discordapp.com/attachments/781328318632820806/947945890012885032/main_background.png");
+   background-repeat:no-repeat ;
+   background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+   position: relative;
+
+   }
+   .home-con{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content:space-evenly;
+       height: 400px
+   }
+   .home-con h5{
+    color: white;
+    font-size: 67px;
+    font-weight: 100;
+   }
+    .home-button{
+        width: 250px;
+        height: 65px;
+        background-color: #0057ff;
+        border-radius: 50px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: wheat;
+   }
+ 
+   /* start header */
+
+.header {
+
+    z-index: 1500;
+    
+    width: 100%;
+    /* position: relative; */
+    
+   
+} 
+.header-con{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+   
+}
+ .links{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        padding: 10px;
+    }
+    .contact-link{
+       /* width: 100px; */
+       height: 50px;
+       border-radius: 40px;
+      
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+    }
+    .fa-regular, .far {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 400;
+        color: black;
+    }
+   /* .contact-link:hover{
+    background-color: 
+    } */
+    .contact-link a span:hover{
+        color: #ea893c;
+    }
+    
+    .contact-link a span{
+        color: white;
+        font-size: 15px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        color:white;
+    }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px; 
+}
+.content p {
+    color: white;
+}
+/* end header */
+
+
+/* start design */
+.design-con{
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.design-img{
+width: 50%;
+}
+.design-img img{
+    width: 100%;
+    }
+.design-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    direction: initial;
+    margin-left:20px ;
+}
+.title h5{
+    color: #cccccc;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.design-info h1 , .contact-info h1{
+    font-size: 50px;
+}
+.design-info h2{
+    font-size: 21px;
+}
+.design-info p , .contact-info p{
+   color: rgb(71, 70, 70);
+   line-height: 1.7;
+   margin-bottom: 15px;
+}
+.design-info a .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0057ff;
+    width: 227px;
+    height: 62px;
+    margin: 20px 0;
+    border-radius: 30px;
+    position: relative;
+}
+.design-info a .button span{
+color:white;
+font-size: 17px;
+}
+.design-info a .button img{
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+}
+.f2{
+    direction: rtl!important;
+}
+
+/* end design */
+/* stat services */
+.services{
+    height: 100hv;
+}
+.serv-container{
+    /* width: 90%;
+    height: 700px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.serv-title,.contact-title{
+    margin-left: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serv-title span,.contact-title span{
+    color: #61b4b0;
+}
+ .serv-title div ,.contact-title div{
+font-size: large;
+font-weight: 700;
+    }
+    
+.card-offer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    /* display: flex;
+  
+    height: 500px; */
+    
+}
+.offer{
+    display: flex;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px 0px rgb(241 234 234);
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.offer h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.offer img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 28px;
+    left: 10px;
+}
+.offer-img{
+    width: 44%;
+}
+/* end services */
