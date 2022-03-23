@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+
+  </head>
+  <body>
+    <script>
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+if (haystack.indexOf(needle) != -1){
+    console.log("Found")
+}
+if (haystack.includes(needle)){
+    console.log("Found")
+}
+if(haystack.lastIndexOf(needle) != -1){
+    console.log("Found")
+}
+// Write 3 Solutions
+    </script>
+  </body>
+</html>
