@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+
+  </head>
+  <body>
+    <script>
+ var day = "Friday";
+
+var day=day.replace(/ /g, "");
+var day = day.charAt(0).toUpperCase() + day.slice(1);
+console.log(`${day}`);
+switch (day){
+  case  "Friday":
+  case "Saturday":
+  case "Sunday":
+  console.log("No Appointments Available");
+    break;
+    case  "Monday":
+  case  "Thursday":
+  console.log("From 10:00 AM To 5:00 PM");
+  break;
+  case  "Tuesday":
+  console.log("From 10:00 AM To 6:00 PM");
+  break;
+  case  "Wednesday":
+  console.log("From 10:00 AM To 7:00 PM");
+  break;case  "Tuesday":
+  console.log("From 10:00 AM To 6:00 PM");
+  break;
+ default :
+ console.log("Its Not A Valid Day");
+
+
+}
+
+
+
+    </script>
+  </body>
+</html>
