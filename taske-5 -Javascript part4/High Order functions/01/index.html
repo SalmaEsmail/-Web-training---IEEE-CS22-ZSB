@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+
+  </head>
+  <body>
+    <script>
+ console.log(`hi`) 
+let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
+function TakeString (ele){
+    if (typeof(ele)=='string'){return(ele)}
+    else{return("")}
+    }
+let NewArray=mix.map(function(ele)  {
+    return typeof(ele)=='string'?ele:""}).join("")
+
+console.log(NewArray)
+    </script>
+  </body>
+</html>
