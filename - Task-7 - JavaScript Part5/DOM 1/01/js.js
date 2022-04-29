@@ -1,0 +1,7 @@
+console.log(document.getElementById("elzero"))
+console.log(document.getElementsByClassName("element"))
+console.log(document.getElementsByTagName("div"))
+console.log(document.querySelector("div"))
+console.log(document.querySelector(".element"))
+console.log(document.querySelector("#elzero"))
+console.log(document.querySelector('[name="js"]'))
